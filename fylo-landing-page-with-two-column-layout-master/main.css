@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+.logo img {
+  height: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: hsl(243, 87%, 12%);
+  padding: 10px 20px;
+}
+nav a:visited {
+  color: red;
+}
+nav a:hover {
+  background-color: lightgray;
+}
+nav a:active {
+  color: red;
+}
+input:active {
+  border-color: red;
+}
+input:focus {
+  border-color: red;
+  outline-color: red;
+}
+button {
+  background-color: hsl(224, 93%, 58%);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 10px 60px;
+}
+.hero img {
+  width: 100%;
+}
+.hero > div {
+  flex: 1;
+  /*this makes sure that the two div are of equal sizes always*/
+}
+h1 {
+  font-size: 40px;
+}
